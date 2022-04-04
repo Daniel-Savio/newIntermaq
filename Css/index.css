@@ -24,6 +24,11 @@
 .social-media{
     max-width: 30px;
 }
+.social-media:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.3s ease 0s;
+}
 /* Direita */
 .side-content{
     color: aliceblue;
@@ -38,5 +43,12 @@
     backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 3%;
-
+}
+#quadro img{
+    border-radius: 20px;
+}
+#produtos{
+    gap: 1rem;
+    padding: 3%;
+    justify-content: space-between;
 }

@@ -8,7 +8,6 @@
 .tab{
     padding: .5% 1%;
     /* border-radius: 12px 12px 0 0; */
-    transition: all 0.1s ease 0s;
     width: 100%;
    
 }
@@ -23,14 +22,17 @@
     font-weight: bold;
     background: #215BAA;
     color: aliceblue;
+    transition: all 0.6s ease 0s;
 }
 
 .tab-content {
-    animation: fadeEffect .5s; /* Fading effect takes 1 second */
+    transition: all 0.6s ease 0s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
   }
   
   /* Go from zero to full opacity */
   @keyframes fadeEffect {
+      
     from {opacity: 0;}
     to {opacity: 1;}
   }
