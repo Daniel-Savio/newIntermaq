@@ -1,6 +1,60 @@
-
 #landing{
-    height: 500px;
-   
+   display: flex;
+   background-image: url('../Assets/FundoRedutor.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+/* Esquerda */
+#texto{
+    color: aliceblue;
+    padding: 3%;
+    margin: 10% auto;
+    flex-direction: column;
+    gap: 5rem;
+}
+#intermaq{
+    font-size: xxx-large;
+}
+
+/* Direita */
+.side-content{
+    color: aliceblue;
+    padding: 3%;
+
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#quadro{
     
+    background-color: rgba(255,255,255,.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 3%;
+
+}
+.tabs{
+    justify-content: center;
+    gap: 2rem;
+    font-size: large;
+    border-bottom: solid;
+    border-color: #F13433;
+}
+.tab{
+    padding: .5% 1%;
+    border-radius: 12px 12px 0 0;
+    transition: all 0.3s ease 0s;
+   
+}
+.tab:hover{
+    border-left: solid;
+    border-top: solid;
+    border-right: solid;
+    border-color: #F13433;
+}
+.active-tab{
+    font-weight: bold;
+    background: #F13433;
+    color: aliceblue;
 }
