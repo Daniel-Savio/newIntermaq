@@ -29,9 +29,6 @@ header{
     padding: .55rem ;
     align-items: center;
     justify-content: flex-end;
-    position: sticky;
-    top: 0;
-    z-index: 100;
     opacity: 1;
 }
 header:hover{
@@ -100,8 +97,8 @@ main{
 }
 .card{
     width: 175px;
-    height: 200px;
-    background:  #000000af;
+    height: 225px;
+    background:  #505050af;
     border-radius: 10px;
     outline: 2px solid rgb(255, 255, 255);
     outline-offset: -6px;
@@ -111,21 +108,27 @@ main{
 }
 .card-img{
     position: absolute;
-    inset: 0;
+    inset: 1;
+    max-width: 100%;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    opacity: .7;
+    object-fit: contain;
+    opacity: .8;
     transition: transform .75s;
+    margin: 0 auto;
+    background: linear-gradient(to top, #ebebeb, #ffffff);
 }
 .card:hover .card-img{
     transform: scale(1.15);
+}
+.card:hover{
+    outline: 2px solid rgb(255, 255, 255);
 }
 .card-title{
     position: absolute;
     left: 15px;
     bottom:15px;
-    text-shadow: 0 0 1px rgba(0,0,0,.5);
+    text-shadow: 1px 3px 5px rgba(0,0,0,.5);
     color: aliceblue;
 
 }
