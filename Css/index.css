@@ -12,16 +12,22 @@
     margin: 10% auto;
     flex-direction: column;
     gap: 5rem;
+    text-shadow: 1px 5px 15px black;
 }
 #intermaq{
     font-size: xxx-large;
 }
-
+.info{
+    flex-direction: column;
+    gap: 1em;
+}
+.social-media{
+    max-width: 30px;
+}
 /* Direita */
 .side-content{
     color: aliceblue;
     padding: 3%;
-
     flex-direction: column;
     gap: 5rem;
 }
@@ -33,28 +39,4 @@
     border-radius: 20px;
     padding: 3%;
 
-}
-.tabs{
-    justify-content: center;
-    gap: 2rem;
-    font-size: large;
-    border-bottom: solid;
-    border-color: #F13433;
-}
-.tab{
-    padding: .5% 1%;
-    border-radius: 12px 12px 0 0;
-    transition: all 0.3s ease 0s;
-   
-}
-.tab:hover{
-    border-left: solid;
-    border-top: solid;
-    border-right: solid;
-    border-color: #F13433;
-}
-.active-tab{
-    font-weight: bold;
-    background: #F13433;
-    color: aliceblue;
 }

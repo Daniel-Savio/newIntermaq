@@ -9,6 +9,7 @@
     <!-- LINKS ESPECÍFICOS -->
     <link rel="stylesheet" href="./Css/index.css">
     <link rel="stylesheet" href="./Css/slider.css">
+    <link rel="stylesheet" href="./Css/tabs.css">
     
     <title>Início</title>
 </head>
@@ -26,8 +27,13 @@
         <section class="bloco" id="landing">
             <div class="sides" id="texto">
                 <h1 id="intermaq">Intermaq do Brasil</h1>
-                <h1>Mais de 35 anos de experiência no mercado nacional e internacional</h1>
-                <div class="redes"> Whatsapp Insta </div>
+                <div class="info bloco"> 
+                    <h1>Mais de 35 anos de experiência no mercado nacional e internacional</h1>
+                    <div class="redes">
+                        <img src="./Assets/Whatsapp.png" class="social-media" alt=""> 
+                        <img src="./Assets/Instagram.png" class="social-media" alt=""> 
+                    </div>
+                </div>
             </div>
             <div class="sides">
                 <div class="side-content">    
@@ -43,13 +49,13 @@
                           
                             <div class="mySlides fade">
                               <div class="numbertext">2 / 3</div>
-                              <img src="./Assets/Alerta.png" style="width:100%">
+                              <img src="./Assets/Padrão-Banner.png" style="width:100%">
                               <div class="text">Caption Two</div>
                             </div>
                           
                             <div class="mySlides fade">
                               <div class="numbertext">3 / 3</div>
-                              <img src="../Assets/Intermaq-Redutores.jpeg" style="width:100%">
+                              <img src="./Assets/Monorosca-2.jfif" style="width:100%">
                               <div class="text">Caption Three</div>
                             </div>
                           
@@ -70,10 +76,17 @@
                 </div>
             </div>
         </section>
+
         <div class="tabs bloco">
-            <div class="tab active-tab">Home</div>
-            <div class="tab">Contact</div>
-            <div class="tab">About-us</div>
+            <div class="tab active-tab" id="product-tab">Products</div>
+            <div class="tab" id="about-us-tab">About-us</div>
+        </div>
+
+        <div id="produtos" class="bloco tab-content default-open">
+            Produtos
+        </div>
+        <div id="sobre-nos" class="bloco tab-content">
+            Sobre nós
         </div>
 
     </main>
@@ -82,3 +95,4 @@
 </body>
 </html>
 <script src="./Js/slider.js"></script>
+<script src="./Js/tabs.js"></script>

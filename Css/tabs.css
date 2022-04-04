@@ -1,0 +1,36 @@
+.tabs{
+    text-align: center;
+    justify-content: space-between;
+    font-size: large;
+    border-bottom: solid;
+    border-color: #215BAA;
+}
+.tab{
+    padding: .5% 1%;
+    /* border-radius: 12px 12px 0 0; */
+    transition: all 0.1s ease 0s;
+    width: 100%;
+   
+}
+.tab:hover{
+    border-left: solid;
+    border-top: solid;
+    border-right: solid;
+    border-width: 2px;
+    border-color: #215BAA;
+}
+.active-tab{
+    font-weight: bold;
+    background: #215BAA;
+    color: aliceblue;
+}
+
+.tab-content {
+    animation: fadeEffect .5s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
