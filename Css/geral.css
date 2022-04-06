@@ -101,7 +101,7 @@ main{
     background:  #505050af;
     border-radius: 10px;
     outline: 2px solid rgb(255, 255, 255);
-    outline-offset: -6px;
+    outline-offset: -8px;
     box-shadow: 3px 3px 10px rgba(0,0,0,.1);
     position: relative;
     overflow: hidden;
@@ -113,7 +113,7 @@ main{
     width: 100%;
     height: 100%;
     object-fit: contain;
-    opacity: .8;
+    opacity: .85;
     transition: transform .75s;
     margin: 0 auto;
     background: linear-gradient(to top, #ebebeb, #ffffff);
