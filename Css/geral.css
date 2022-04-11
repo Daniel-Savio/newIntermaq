@@ -76,7 +76,6 @@ header a{
     width: fit-content;
 }
 .btn:hover{
-    font-weight: bold;
     background-color: #215aaabb;
 }
 main{

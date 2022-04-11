@@ -1,34 +1,64 @@
 .tabs{
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background: #82b6ff;
     font-size: large;
     border-bottom: solid;
     border-color: #215BAA;
     position: sticky;
     top: 0;
     z-index: 1000;
-    
+    color: ivory;
     
 }
 .tab{
     padding: .5% 1%;
     width: 100%;
-    background: #ffffff;
     display: flex;
     flex-direction: column;
+    transition: color .5s;
 }
 .tab:hover{
-    border-left: solid;
-    border-top: solid;
-    border-right: solid;
-    border-width: 2px;
-    border-color: #215BAA;
     cursor: pointer;
 }
+
+#about-us-tab::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 0;
+    height: 100%;
+    background: #215BAA;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: all .6s;
+}
+#about-us-tab:hover::before{
+    width: 40%;
+}
+
+#product-tab::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: #215BAA;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: all .6s;
+}
+#product-tab:hover::before{
+    width: 40%;
+}
+
 .active-tab{
+
     font-weight: bold;
     background: #215BAA;
-    color: aliceblue;
+    color: ivory    ;
     transition: all 0.6s ease 0s;
 }
 .tab-title{
@@ -44,9 +74,10 @@
     font-size: large;
 }
 .tab-img{
-    width: 80px;
+    width: 30px;
     display: inline;
     vertical-align: middle;
+    margin-right: 1rem;
 }
 
 .tab-content {
@@ -56,7 +87,6 @@
   
   /* Go from zero to full opacity */
   @keyframes fadeEffect {
-      
     from {opacity: 0;}
     to {opacity: 1;}
   }
