@@ -12,7 +12,7 @@ document.querySelector(".default-open").style.display="flex";
 
 tabs.forEach((tab)=>{
     tab.addEventListener("click",()=>{
-        if(tab.innerText === "Products"){
+        if(tab.innerText === "Produtos"){
             produtos.style.display="flex";
             sobreNos.style.display="none";
             if(!tab.classList.contains("active-tab")){
@@ -21,7 +21,7 @@ tabs.forEach((tab)=>{
             }
         }
 
-        if(tab.innerText === "About-us"){
+        if(tab.innerText === "Sobre-nós"){
             produtos.style.display="none";
             sobreNos.style.display="flex";
             if(!tab.classList.contains("active-tab")){
