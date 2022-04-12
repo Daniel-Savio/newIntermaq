@@ -80,6 +80,7 @@
 .sobre-nos-bg{
     position: absolute;
     z-index: -10;
+    width: 100%;
 }
 .sobre-nos-content p {
     padding: 3% 10%;
@@ -116,7 +117,44 @@
 }
 
 .sobre-nos-second{
-    margin-top: 10%;
     padding: 3%;
+    vertical-align: middle;
 
+}
+#slogan{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background: #F13433;
+    padding: 2%;
+    color: ivory;
+}
+.primeiro, .terceiro{
+    margin-top: 2%;
+    width: 25%;
+    font-size: large;
+    border-radius: 10px;
+    
+}
+.segundo{
+    position: relative;
+    width: 45%;
+    margin: 0 2%;
+	
+	
+}
+.segundo img{
+    width: 100%;
+    box-shadow: 1px 15px 25px rgba(0, 0, 0, 0.51);
+    
+}
+.segundo h2{
+    z-index: 10;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    color: #215BAA;
+    text-shadow: 1px 5px 15px rgb(255, 255, 255);
+    border-bottom: solid #F13433;
+   
 }

@@ -1,0 +1,28 @@
+.fade-in{
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}
+.appear{
+    opacity: 1;
+}
+.from-left{
+    transform: translateX(-100%);
+}
+.from-rigth{
+    transform: translateX(100%);
+}
+.from-bottom{
+    transform: translateY(30%);
+}
+
+.from-left,
+.from-rigth,
+.from-bottom {
+    opacity: 0;
+    transition: transform 500ms ease-in-out;
+}
+.slided{
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+}

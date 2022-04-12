@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./Css/index.css">
     <link rel="stylesheet" href="./Css/slider.css">
     <link rel="stylesheet" href="./Css/tabs.css">
+    <link rel="stylesheet" href="./Css/animation.css">
     
     <title>Início</title>
 </head>
@@ -28,7 +29,7 @@
             <div class="sides" id="texto">
                 <h1 id="intermaq">Intermaq do Brasil</h1>
                 <div class="info bloco"> 
-                    <h1>Mais de 35 anos de experiência no mercado nacional e internacional</h1>
+                    <h1 class="">Mais de 35 anos de experiência no mercado nacional e internacional</h1>
                     <div class="redes">
                         <img src="./Assets/Whatsapp.png" class="social-media" alt=""> 
                         <img src="./Assets/Instagram.png" class="social-media" alt=""> 
@@ -187,11 +188,11 @@
         </div>
         <div id="sobre-nos" class="bloco tab-content">
             <div class="sobre-nos-first bloco">
-                <div class="sobre-nos-title">
-                    <p>Conheça nossa empresa:</p>
-                    <h1>Intermaq do Brasil</h1>
+                <div class="sobre-nos-title ">
+                    <p class="from-bottom slide-in">Conheça nossa empresa:</p>
+                    <h1 class="from-bottom slide-in">Intermaq do Brasil</h1>
                 </div>
-                <div class="sobre-nos-wrapper">
+                <div class="sobre-nos-wrapper from-left slide-in">
                     <div class="sobre-nos-content">
                         <p>
                             A Intermaq do Brasil realiza importações de produtos e equipamentos há mais de 35 anos, oferecendo a tranquilidade que você busca com os benefícios que você precisa.Fazemos também, a importação de qualquer produto, independente do país de origem.Disponibilizamos para nossos clientes um atendimento personalizado, despachante aduaneiro e agente de transporte qualificado.
@@ -211,8 +212,18 @@
                 </div>
 
             </div>
-            <div class="sobre-nos-second bloco">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem accusantium obcaecati dolorem id hic ipsa? Deserunt consequatur dolor quos corrupti, ipsam illo sit laborum, quisquam odio dolores unde tempore laudantium.
+            <h2 id="slogan" class="fade-in">Liderança no mercado nacional e internacional no segmento da indústria plástica</h2>
+            <div class="sobre-nos-second bloco slide-in from-bottom">
+                <div class="primeiro slide-in from-left">
+                    <p>A Intermaq do Brasil, ao longo dos seus 35 anos de atividades, comercializa máquinas, equipamentos e produtos para a indústria de transformação de resinas plásticas, borracha e alimentícia. Também prestamos assistência técnica aos nossos clientes. Pautando sempre pela fidelidade, não só pela comercialização, mas pelo que é de mais importante, e fundamental em todo segmento da atividade produtiva: a Prestação de Serviço. A cadeia produtiva não depende só de modernos equipamentos em sua produção, mas de uma eficiente e ágil equipe de assistentes técnicos.</p>
+                </div>
+                <div class="segundo">
+                    <img class="" src="./Assets/AtendimentoAoCliente.png" alt="">
+                    <h2>Melhor atendimento ao consumidor</h2>
+                </div>
+                <div class="terceiro slide-in from-rigth">
+                    <p>E desta forma, a Intermaq do Brasil, é hoje líder, na comercialização de máquinas, equipamentos, peças e acessórios para indústrias dos segmentos de Plástico, Têxtil, Alimento, Borracha, e afins. Com escritórios, em Hong Kong, Taiwan e China, orientamos e prestamos suporte técnico aos nossos clientes nas suas compras, oferecendo qualidade e garantia, em todo o processo da negociação. Aceitamos representantes e distribuidores de todo o Brasil.</p>
+                </div>
             </div>
 
         </div>
@@ -224,3 +235,4 @@
 </html>
 <script src="./Js/slider.js"></script>
 <script src="./Js/tabs.js"></script>
+<script src="./Js/animation.js"></script>
