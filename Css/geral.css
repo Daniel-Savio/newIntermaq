@@ -144,3 +144,34 @@ main{
     background-size: 100% 100%;
     background-position-x: left;
 }
+
+.icons{
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+
+.icon{
+    width: fit-content;
+    height: fit-content;
+    background-color: ivory;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: rgba(119, 141, 119, 0.689) 3px 3px 6px 0, rgb(227, 227, 227) -3px -3px 6px;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+}
+.icon img{
+    height: 35px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.icon:hover{
+    transform: translateY(-5px);
+}

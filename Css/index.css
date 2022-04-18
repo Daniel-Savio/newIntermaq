@@ -143,18 +143,40 @@
 	
 	
 }
+.segundo a img, h2{
+    perspective: 500px;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: all .5s;
+}
+.segundo a img:hover{
+    transform: translateZ(10px) rotateX(5deg) rotateY(10deg);
+}
 .segundo img{
     width: 100%;
     box-shadow: 1px 15px 25px rgba(0, 0, 0, 0.51);
     
 }
+
 .segundo h2{
     z-index: 10;
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: 16px;
     color: #215BAA;
     text-shadow: 1px 5px 15px rgb(255, 255, 255);
     border-bottom: solid #F13433;
    
+}
+.flag img{
+    width: 50px;
+    
+}
+.cel img{
+    height: 25px;
+    width: 25px;
+}
+.cel p{
+    font-size: 10px;
+    color: black;
 }
