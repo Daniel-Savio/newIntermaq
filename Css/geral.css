@@ -133,8 +133,8 @@ main{
     position: absolute;
     left: 15px;
     bottom:15px;
-    text-shadow: 1px 3px 10px rgba(0,0,0,.7);
-    color: aliceblue;
+    text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.863);
+    color: ivory;
     border-left: solid #F13433;
     
 
