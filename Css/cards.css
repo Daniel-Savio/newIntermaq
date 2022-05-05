@@ -81,7 +81,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #008bbad2;
+    background-color: #008bbadb;
     overflow: hidden;
     width: 50%;
     height: 0;
@@ -92,7 +92,7 @@
   .overlay-rigth{
     position: absolute;
     right: 0;
-    background-color: #f13333cc;
+    background-color: #f13333db;
     overflow: hidden;
     width: 50%;
     height: 0;
